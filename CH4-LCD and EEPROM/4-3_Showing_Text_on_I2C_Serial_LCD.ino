@@ -11,18 +11,3 @@ int Address = 0x27;
 
 LiquidCrystal_I2C lcd(Address, 16, 2);
 int i = 0;
-
-void setup(){
-
-    lcd.init();
-    lcd.backlight(); // Turns on the backlight.
-    // lcd.noBacklight();  // Turns off the backlight.
-
-}
-
-void loop(){
-
-    lcd.setCursor(0,0); // (Column, Row)
-    i = i + 1;
-
-}
