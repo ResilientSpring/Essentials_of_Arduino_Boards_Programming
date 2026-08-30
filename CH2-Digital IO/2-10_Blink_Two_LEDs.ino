@@ -21,3 +21,14 @@ void setup(){
     digitalWrite(LED2, LED2State);
 
 }
+
+void loop(){
+
+    delay(100);
+    k = k + 1;
+    digitalWrite(LED1, LED1Array[k-1]);
+    digitalWrite(LED2, LED2Array[k-1]);
+    if(k==40) k = 0;
+
+}
+
