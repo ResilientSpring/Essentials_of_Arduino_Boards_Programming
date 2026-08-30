@@ -24,5 +24,6 @@ void loop(){
 
     lcd.setCursor(0,0); // (Column, Row)
     i = i + 1;
+    lcd.print((String) "i = " + i);
 
 }
