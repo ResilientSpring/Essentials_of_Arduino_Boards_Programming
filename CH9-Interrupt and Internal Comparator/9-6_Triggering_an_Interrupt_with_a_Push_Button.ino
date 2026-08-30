@@ -10,4 +10,6 @@ void setup(){
 
     digitalWrite(13, LOW);
 
+    pinMode(2, INPUT_PULLUP);
+
 }
